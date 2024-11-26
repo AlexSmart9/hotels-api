@@ -6,6 +6,7 @@ const imageRouter = require('./image.router');
 const bookingRouter = require('./booking.router');
 const veriifyJWT = require('../utils/verifyJWT');
 const reviewRouter = require('./review.router');
+
 const router = express.Router();
 
 // colocar las rutas aquí
